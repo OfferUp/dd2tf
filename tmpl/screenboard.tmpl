@@ -328,7 +328,7 @@ resource "datadog_screenboard" "dd_{{ .Id }}" {
     {{- end }}
     {{- if .Params }}
     {{- with .Params }}
-    params {
+    params = {
       {{- if .Sort }}
       sort = "{{ .Sort }}"
       {{- end }}
