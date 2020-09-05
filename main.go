@@ -12,7 +12,7 @@ import (
 	"text/template"
 
 	flag "github.com/spf13/pflag"
-	"github.com/clarketm/go-datadog-api"
+	"github.com/OfferUp/go-datadog-api"
 )
 
 type LocalConfig struct {

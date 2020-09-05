@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/clarketm/go-datadog-api"
+	"github.com/OfferUp/go-datadog-api"
 )
 
 var exampleDashboard = datadog.Dashboard{

@@ -34,7 +34,7 @@
   version = "1.0.3"
 
 [[constraint]]
-  name = "github.com/clarketm/go-datadog-api"
+  name = "github.com/OfferUp/go-datadog-api"
   version = "2.29.1"
 
 [prune]
