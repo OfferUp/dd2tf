@@ -2,20 +2,20 @@
 
 
 [[projects]]
+  digest = "1:7e586e92d601350c5e33c745f7d24bbac6840daaf8b9d4cbde31f3668945a3ab"
+  name = "github.com/OfferUp/go-datadog-api"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "61c61af2266071e5526f9d176a80ff1e7bb4efd7"
+  version = "v2.29.1"
+
+[[projects]]
   digest = "1:fe9b15f080d19c215514056bae7589d6958821766fb5f5fceb9402ec9df2f736"
   name = "github.com/cenkalti/backoff"
   packages = ["."]
   pruneopts = "UT"
   revision = "18fe4ce5a8550e0d0919b680ad3c080a5455bddf"
   version = "v4.0.2"
-
-[[projects]]
-  digest = "1:994ca70b788d8243f1226cc525d17b4a8d353f8f35b0b755d37fa7df38303598"
-  name = "github.com/clarketm/go-datadog-api"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "f1a172b71e0ae08c5d0ed76ec2f13b416757a24e"
-  version = "v2.29.1"
 
 [[projects]]
   digest = "1:09cb61dc19af93deae01587e2fdb1c081e0bf48f1a5ad5fa24f48750dc57dce8"
@@ -56,7 +56,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/clarketm/go-datadog-api",
+    "github.com/OfferUp/go-datadog-api",
     "github.com/sirupsen/logrus",
     "github.com/spf13/pflag",
   ]
